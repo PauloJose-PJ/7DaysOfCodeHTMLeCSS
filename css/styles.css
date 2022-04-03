@@ -1,0 +1,129 @@
+:root {
+  --text-color: #667085;
+  --main-color: #8e2424;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("/forts/Inter-Regular.ttf") format("truetype"),
+    url("/forts/Inter-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 7rem;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  gap: 1rem;
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start-end;
+  align-items: center;
+  width: 1216.02px;
+  padding: 1rem 0;
+}
+
+.logotipo a img {
+  margin-right: 0.5rem;
+}
+
+.logotipo {
+  /* Display ativo direção em linha, justificado no centro e alinhado ao centro */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 9.25rem;
+}
+
+.menu {
+  gap: 2rem;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.menu a {
+  color: var(--text-color);
+}
+
+.menu a:hover {
+  color: black;
+}
+
+#logo {
+  width: 142px;
+  height: 32px;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--main-color);
+  font-size: 0.9rem;
+}
+
+button#signUp {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+/*-------------------- Section -----------------------*/
+/* CSS para armazenar essa cor */
+
+.cabecalho {
+  /* quando quiser alinhar texto ao container */
+  text-align: center;
+  margin-top: 98px;
+}
+
+span {
+  color: var(--main-color);
+  font-weight: bold;
+  font: 16px;
+  line-height: 24px;
+  margin-top: 96px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 24px;
+  margin-bottom: 36px;
+}
+
+p {
+  color: var(--text-color);
+  font-size: 20px;
+  line-height: 30px;
+  width: 791px;
+  text-align: center;
+}
+
+/*----------------------------------------------------*/
