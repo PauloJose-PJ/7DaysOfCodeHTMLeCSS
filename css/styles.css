@@ -1,6 +1,7 @@
 :root {
   --text-color: #667085;
   --main-color: #8e2424;
+  --text-glayblack: #101828;
 }
 
 @font-face {
@@ -38,11 +39,11 @@ ul {
 
 header {
   display: flex;
-  justify-content: space-between;
   justify-content: flex-start-end;
   align-items: center;
-  width: 1216.02px;
-  padding: 1rem 0;
+  height: 80px;
+  width: 1212px;
+  gap: 119px;
 }
 
 .logotipo a img {
@@ -73,9 +74,10 @@ header {
   color: black;
 }
 
-#logo {
+.logo {
   width: 142px;
-  height: 32px;
+  height: 40px;
+  background-color: transparent;
 }
 
 button {
@@ -101,6 +103,7 @@ button#signUp {
   /* quando quiser alinhar texto ao container */
   text-align: center;
   margin-top: 98px;
+  margin-bottom: 107px;
 }
 
 span {
@@ -126,4 +129,37 @@ p {
   text-align: center;
 }
 
-/*----------------------------------------------------*/
+/*------------------------ Section 2  ----------------------------*/
+.metricas-container {
+  height: 288px;
+  display: flex;
+  flex-direction: row;
+}
+
+.metri-1 {
+  width: 280px;
+  height: 192px;
+  display: block;
+  padding-bottom: 96px;
+}
+
+.metri-1 h1 {
+  color: var(--main-color);
+  margin: 12px;
+}
+
+.p-glay {
+  margin-bottom: 8px;
+  text-align: start;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--text-glayblack);
+}
+
+.metri-1 p {
+  width: 280px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+}
