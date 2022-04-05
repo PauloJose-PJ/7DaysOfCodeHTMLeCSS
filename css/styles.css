@@ -6,7 +6,7 @@
 
 html{
   font-family: 'Inter', sans-serif;
-  font-size: 16px; 
+  font-size: 1rem; 
   color: var(--text-color)
 }
 
@@ -17,22 +17,24 @@ body {
   margin: auto 7rem;
 }
 
-li {
-  list-style: none;
-}
-
 ul {
   gap: 1rem;
   display: flex;
+  height: 5rem;
+  align-items: center;
 }
 
 header {
   display: flex;
   justify-content: flex-start-end;
   align-items: center;
-  height: 80px;
-  width: 1212px;
-  gap: 119px;
+  width: 75.75rem;
+  gap:25.2rem
+}
+
+.navbar{
+  display: flex;
+  gap: 7.4375rem;
 }
 
 .logotipo a img {
@@ -43,14 +45,11 @@ header {
   /* Display ativo direção em linha, justificado no centro e alinhado ao centro */
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  width: 9.25rem;
 }
 
 .menu {
   gap: 2rem;
-  justify-content: center;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -59,26 +58,21 @@ header {
   color: black;
 }
 
-.logo {
-  width: 142px;
-  height: 40px;
-  background-color: transparent;
-}
-
 button {
   padding: 0.8rem 1rem;
   cursor: pointer;
   border: none;
   border-radius: 0.5rem;
-  font-weight: 500;
   background: none;
-  color: var(--main-color);
-  font-size: 0.9rem;
+  color: var(--text-color);
 }
 
 button#signUp {
   background-color: var(--main-color);
+  width: 7rem;
+  height: 2.75rem;
   color: #fff;
+  letter-spacing: 0.0625rem;
 }
 
 /*-------------------- Section -----------------------*/
@@ -88,95 +82,95 @@ button#signUp {
   /* quando quiser alinhar texto ao container */
   display: block;
   text-align: center;
-  margin: 98px 0px 107px 0px;
+  margin: 6.125rem 0rem 6.69rem 0rem;
 }
 
 span {
   color: var(--main-color);
   font-weight: bold;
-  font: 16px;
-  line-height: 24px;
-  margin-top: 96px;
+  font: 1rem;
+  line-height: 1.5rem;
+  margin-top: 6rem;
 }
 
 h1 {
   color: var(--text-glayblack);
-  font-size: 48px;
-  line-height: 60px;
-  margin: 24px 0 36px 0;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  margin: 1.5rem 0 2.25rem 0;
   font-weight: bold;
 }
 
 p {
-  font-size: 20px;
-  line-height: 30px;
-  width: 791px;
+  font-size: 1.25rem;
+  line-height: 1.88rem;
+  width: 49.44rem;
   text-align: center;
 }
 
 /*------------------------ Section 2  ----------------------------*/
 .metricas-container {
-  height: 288px;
+  height: 18rem;
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 2rem;
 }
 
 
 .metri-1 {
-  width: 280px;
-  height: 192px;
+  width: 17.5rem;
+  height: 12rem;
   display: block;
-  padding-bottom: 96px;
+  padding-bottom: 6rem;
 }
 
 .metri-1 h1 {
   color: var(--main-color);
-  margin: 12px;
-  font-size: 60px;
+  margin: 0.75rem;
+  font-size: 3.75rem;
 }
 
 .p-glayBlack {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   text-align: start;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   color: var(--text-glayblack);
 }
 
 .metri-1 p {
-  width: 280px;
+  width: 17.5rem;
   text-align: left;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 /*----------------- Vagas para Talentos  ---------------*/
 .conteudo{
   display: block;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .conteudo span {
-  font: 14px;
-  line-height: 20px;
+  font: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .conteudo h1 {
   color: var(--text-glayblack);
   font-weight: bold;
-  font-size: 36px;
-  line-height: 44px;
-  letter-spacing: -0.02em;
-  margin: 20px 0px;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: -0.02rem;
+  margin: 1.25rem 0rem;
 }
 
 .conteudo p {
-  font-weight: 400px;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 20px 224px 64px 224px;
+  font-weight: 25rem;
+  font-size: 1.25rem;
+  line-height: 1.88rem;
+  margin: 1.25rem 14rem 4rem 14rem;
 }
 

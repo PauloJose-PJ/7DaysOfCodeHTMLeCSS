@@ -34,6 +34,13 @@ body {
 ol, ul {
 	list-style: none;
 }
+a {
+	text-decoration: none;
+	color: var(--text-color);
+}
+.logotipo {
+	font-weight: bold;
+}
 blockquote, q {
 	quotes: none;
 }
