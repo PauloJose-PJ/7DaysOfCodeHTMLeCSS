@@ -4,21 +4,10 @@
   --text-glayblack: #101828;
 }
 
-@font-face {
-  font-family: Inter;
-  src: url("/forts/Inter-Regular.ttf") format("truetype"),
-    url("/forts/Inter-Medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-* {
-  margin: 0rem;
-  padding: 0rem;
-  box-sizing: border-box;
-  font-family: Inter, sans-serif;
-  text-decoration: none;
-  color: black;
+html{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px; 
+  color: var(--text-color)
 }
 
 body {
@@ -66,10 +55,6 @@ header {
   line-height: 1.5rem;
 }
 
-.menu a {
-  color: var(--text-color);
-}
-
 .menu a:hover {
   color: black;
 }
@@ -101,9 +86,9 @@ button#signUp {
 
 .cabecalho {
   /* quando quiser alinhar texto ao container */
+  display: block;
   text-align: center;
-  margin-top: 98px;
-  margin-bottom: 107px;
+  margin: 98px 0px 107px 0px;
 }
 
 span {
@@ -115,14 +100,14 @@ span {
 }
 
 h1 {
+  color: var(--text-glayblack);
   font-size: 48px;
   line-height: 60px;
-  margin-top: 24px;
-  margin-bottom: 36px;
+  margin: 24px 0 36px 0;
+  font-weight: bold;
 }
 
 p {
-  color: var(--text-color);
   font-size: 20px;
   line-height: 30px;
   width: 791px;
@@ -134,7 +119,9 @@ p {
   height: 288px;
   display: flex;
   flex-direction: row;
+  gap: 32px;
 }
+
 
 .metri-1 {
   width: 280px;
@@ -146,9 +133,10 @@ p {
 .metri-1 h1 {
   color: var(--main-color);
   margin: 12px;
+  font-size: 60px;
 }
 
-.p-glay {
+.p-glayBlack {
   margin-bottom: 8px;
   text-align: start;
   font-weight: bold;
@@ -163,3 +151,32 @@ p {
   font-size: 16px;
   line-height: 24px;
 }
+
+/*----------------- Vagas para Talentos  ---------------*/
+.conteudo{
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.conteudo span {
+  font: 14px;
+  line-height: 20px;
+}
+
+.conteudo h1 {
+  color: var(--text-glayblack);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  margin: 20px 0px;
+}
+
+.conteudo p {
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 20px 224px 64px 224px;
+}
+
