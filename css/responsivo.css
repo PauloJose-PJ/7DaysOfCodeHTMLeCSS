@@ -1,0 +1,70 @@
+@media (max-width: 960px) {
+  header {
+    width: 60rem;
+    gap:10rem;
+    align-items:none;
+  }
+  
+  .metricas-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+    margin-bottom: 7rem;
+  }  
+
+  .conteudo p {
+    margin: 1.25rem 6rem 4rem 6rem;
+  }
+
+  .reuniao {
+    width: 59.375rem;
+  }
+}
+
+@media (max-width: 850px) {
+  header {
+    width: 50rem;
+    gap:4rem;
+  }
+
+  .navbar{
+    gap: 3rem;
+  }
+
+  .conteudo p {
+    margin: 1.25rem auto 4rem auto;
+  }
+
+  .reuniao {
+    width: 50rem;
+  }
+
+}
+
+/* AQUIIIIIIIIIIIIII  FALTA DETALHES*/
+
+  @media (max-width: 740px) {
+    header {
+      width: 30rem;
+      gap:4rem;
+    }
+  
+    .navbar{
+      display: block;
+    }  
+
+    .menu{
+      display: flex;
+      gap:1rem
+    }
+  
+    .conteudo p {
+      margin: 1.25rem auto 4rem auto;
+    }
+  
+    .reuniao {
+      width: 50rem;
+    }
+    
+  }
+  

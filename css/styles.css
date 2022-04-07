@@ -2,12 +2,14 @@
   --text-color: #667085;
   --main-color: #8e2424;
   --text-glayblack: #101828;
+  --text-black: #000000;
+  --bordervaga-glaywhite: #EAECF0;
 }
 
-html{
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem; 
-  color: var(--text-color)
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: var(--text-color);
 }
 
 body {
@@ -26,13 +28,12 @@ ul {
 
 header {
   display: flex;
-  justify-content: flex-start-end;
   align-items: center;
   width: 75.75rem;
-  gap:25.2rem
+  gap: 25.2rem;
 }
 
-.navbar{
+.navbar {
   display: flex;
   gap: 7.4375rem;
 }
@@ -85,7 +86,7 @@ button#signUp {
   margin: 6.125rem 0rem 6.69rem 0rem;
 }
 
-span {
+.cabecalho span {
   color: var(--main-color);
   font-weight: bold;
   font: 1rem;
@@ -103,8 +104,8 @@ h1 {
 
 p {
   font-size: 1.25rem;
-  line-height: 1.88rem;
-  width: 49.44rem;
+  line-height: 1.875rem;
+  width: 48rem;
   text-align: center;
 }
 
@@ -112,42 +113,36 @@ p {
 .metricas-container {
   height: 18rem;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   gap: 2rem;
 }
 
-
-.metri-1 {
-  width: 17.5rem;
-  height: 12rem;
-  display: block;
-  padding-bottom: 6rem;
-}
-
-.metri-1 h1 {
+.metri-1 h2 {
   color: var(--main-color);
-  margin: 0.75rem;
+  margin: 0rem 0rem 0.75rem 0rem;
+  font-weight: bold;
   font-size: 3.75rem;
 }
 
-.p-glayBlack {
-  margin-bottom: 0.5rem;
+.p-glayblack {
   text-align: start;
   font-weight: bold;
   font-size: 1.125rem;
   line-height: 1.75rem;
   color: var(--text-glayblack);
+  margin-bottom: 0.5rem;
 }
 
 .metri-1 p {
   width: 17.5rem;
   text-align: left;
+  font-weight: 400 bold;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
 /*----------------- Vagas para Talentos  ---------------*/
-.conteudo{
+.conteudo {
   display: block;
   text-align: center;
   margin-top: 6.25rem;
@@ -164,13 +159,78 @@ p {
   font-size: 2.25rem;
   line-height: 2.75rem;
   letter-spacing: -0.02rem;
-  margin: 1.25rem 0rem;
+  margin: 1.25rem auto;
 }
 
 .conteudo p {
   font-weight: 25rem;
   font-size: 1.25rem;
   line-height: 1.88rem;
-  margin: 1.25rem 14rem 4rem 14rem;
+  margin: 1.25rem auto 4rem auto;
 }
 
+/* -----------------   Vagas   -------------------- */
+
+.design {
+  display: block;
+  width: 769px;
+  height: 365px;
+  margin: 62px;
+  gap: 32px;
+  border: 1px solid red;
+}
+
+.design p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-glayblack);
+  text-align: start;
+  margin-bottom: 32px;
+}
+
+.vaga {
+  width: 720px;
+  height: 86px;
+  margin-bottom: 24px;
+  padding: 24px 24px 28px 24px;
+  border: 1px solid var(--bordervaga-glaywhite);
+  border-radius: 16px;
+}
+
+.titulo-vaga {
+  color: var(--text-glayblack);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.informacoes {
+  display: flex;
+  gap: 24px;
+}
+
+.informacoes span {
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin: 32px 0px 28px 0px;
+  color: var(--text-color);
+}
+
+.dev-software {
+  display: block;
+  width: 769px;
+  height: 529px;
+  margin: 62px;
+  gap: 32px;
+  border: 1px solid red;
+}
+
+.dev-software p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-glayblack);
+  text-align: start;
+  margin-bottom: 32px;
+}
