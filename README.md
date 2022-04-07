@@ -35,7 +35,11 @@ Essa parte foi a que achei bacana em resolução de width em 1440px deixei como 
 A <br>dificuldade que tive aqui foi a foto</br> alias tenho ainda não sei se faço responsivo através do @media modificando seu tamanho, ou se faço aquela parada que não sei em deixalo 100% e quando diminuir a tela ele diminui automatico.
 
 <h3>Day 05</h3>
-Estou fazendo...
+<b>Nesse desafio vi que a ordem dos nomes das tags na hora de estilizar importam</b>, tanto antes como depois quando estillizamos mais de uma, quando as configurações antepassadas podem passar. Tentei estilizar o Css <b>Vaga</b> com o <b>GAP</b> nas vagas mas sem sucesso fiquei frustado então usei o metodo que sei a margin. Segundo desafio meio dificil primeiro é o <b>Menu</b>
 
+
+
+<h3>Day 06</h3>
+Estou fazendo...
 
 Trabalhando a responsividade
