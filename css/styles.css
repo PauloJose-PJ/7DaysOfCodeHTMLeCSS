@@ -1,9 +1,11 @@
+/* -------- Desafio 1 - Menu --------- */
+
 :root {
   --text-color: #667085;
   --main-color: #8e2424;
   --text-glayblack: #101828;
   --text-black: #000000;
-  --bordervaga-glaywhite: #EAECF0;
+  --bordervaga-glaywhite: #eaecf0;
 }
 
 html {
@@ -76,9 +78,7 @@ button#signUp {
   letter-spacing: 0.0625rem;
 }
 
-/*-------------------- Section -----------------------*/
-/* CSS para armazenar essa cor */
-
+/*----------- Desafio 2 - Conteudo - Section ------------*/
 .cabecalho {
   /* quando quiser alinhar texto ao container */
   display: block;
@@ -109,7 +109,7 @@ p {
   text-align: center;
 }
 
-/*------------------------ Section 2  ----------------------------*/
+/*--------- Desfio 3 - Sobre - Section 2  -------------*/
 .metricas-container {
   height: 18rem;
   display: flex;
@@ -141,7 +141,7 @@ p {
   line-height: 1.5rem;
 }
 
-/*----------------- Vagas para Talentos  ---------------*/
+/*----------- Desafio 4 Vagas para Talentos  ------------*/
 .conteudo {
   display: block;
   text-align: center;
@@ -169,12 +169,12 @@ p {
   margin: 1.25rem auto 4rem auto;
 }
 
-/* -----------------   Vagas   -------------------- */
+/* ------------- Desafio 5 - informação Vagas ---------- */
 
 .design {
   display: block;
   width: 769px;
-  height: 365px;
+  height: 269px;
   margin: 62px;
   gap: 32px;
   border: 1px solid red;
@@ -221,9 +221,9 @@ p {
   display: block;
   width: 769px;
   height: 529px;
-  margin: 62px;
   gap: 32px;
   border: 1px solid red;
+  margin-bottom: 96px;
 }
 
 .dev-software p {
@@ -234,3 +234,51 @@ p {
   text-align: start;
   margin-bottom: 32px;
 }
+
+/* ---------- Desafio - 6  Section Depoimentos  --------- */
+.depoimentos {
+  width: 1088px;
+  height: 291px;
+  border-radius: 16px;
+  text-align: center;
+  background-color: rgba(195, 25, 25, 0.03);
+  padding: 66px 64px 42px 64px;
+}
+
+.depoimentos span {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--main-color);
+}
+
+.depoimentos h1 {
+  width: 1088px;
+  height: 88px;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 44px;
+  letter-spacing: -2%;
+  margin: 16px auto;
+}
+
+.depoimentos img {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+p.colabNome {
+  font-weight: bold;
+  color: var(--text-glayblack);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.depoimentos p {
+  text-align: center;
+  margin: 4px auto 0px auto;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* -------------- Desafio 7 - Footer -------------- */
