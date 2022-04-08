@@ -1,11 +1,12 @@
 /* -------- Desafio 1 - Menu --------- */
-
 :root {
+  --text-rotape: #98a2b3;
   --text-color: #667085;
   --main-color: #8e2424;
   --text-glayblack: #101828;
   --text-black: #000000;
   --bordervaga-glaywhite: #eaecf0;
+  --background-footer: #f9fafb;
 }
 
 html {
@@ -149,8 +150,10 @@ p {
 }
 
 .conteudo span {
+  color: var(--main-color);
   font: 0.875rem;
   line-height: 1.25rem;
+  font-weight: bold;
 }
 
 .conteudo h1 {
@@ -174,7 +177,7 @@ p {
 .design {
   display: block;
   width: 769px;
-  height: 269px;
+  height: 358px;
   margin: 62px;
   gap: 32px;
   border: 1px solid red;
@@ -239,6 +242,7 @@ p {
 .depoimentos {
   width: 1088px;
   height: 291px;
+  margin-bottom: 96px;
   border-radius: 16px;
   text-align: center;
   background-color: rgba(195, 25, 25, 0.03);
@@ -282,3 +286,64 @@ p.colabNome {
 }
 
 /* -------------- Desafio 7 - Footer -------------- */
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 435px;
+  background-color: var(--background-footer);
+  position: static;
+  border: 1px solid red;
+  padding: 95px, auto, 95px, auto;
+}
+
+.rodape h1 {
+  margin: 96px 0 20px 0;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 44px;
+  letter-spacing: -2%;
+}
+
+.rodape p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.email {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+#emailbox {
+  width: 360px;
+  height: 2.75rem;
+  font-size: 24px;
+  padding: 12px, 14px, 12px, 16px;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+#signDown {
+  background-color: var(--main-color);
+  width: 7rem;
+  height: 2.75rem;
+  color: #fff;
+  letter-spacing: 0.0625rem;
+}
+
+.direitos-res p{
+  font-size: 16px;
+  color: var(--text-rotape);
+  line-height: 24px;
+  margin-bottom: 96px;
+}

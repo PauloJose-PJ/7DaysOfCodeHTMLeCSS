@@ -66,5 +66,8 @@
       width: 50rem;
     }
     
+    .email{
+      display:flex;
+    }
   }
   
