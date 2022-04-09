@@ -35,7 +35,6 @@ Essa parte foi a que achei bacana em resolução de width em 1440px deixei como 
 A <br>dificuldade que tive aqui foi a foto</br> alias tenho ainda não sei se faço responsivo através do @media modificando seu tamanho, ou se faço aquela parada que não sei em deixalo 100% e quando diminuir a tela ele diminui automatico.
 
 <h3>Day 05</h3>
-Estou fazendo...
+Acabei ontem mas comentar hoje, bom eu configurei para linhar ao centro no <b>BODY</b> pensando que talvez ficassem todas as tags com essa configuração mas pelo que percebi quando cria uma div container algumas das vezes não fica configurada aí está o motivo de alguns novatos criarem muitas configurações e tags, podemos ate aliviar muita linhas de codigos colocando configurações nas tags principais assim mesclando novas configuração nas novas sub-tags mas oque não entendi é o conflitos que fica entre sub e sub-criada.
 
-
-Trabalhando a responsividade
+Trabalhando a responsividade...
