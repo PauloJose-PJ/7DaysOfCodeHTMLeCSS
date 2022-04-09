@@ -1,4 +1,4 @@
-<h1>7daysOfCode</h1>
+<h1>#7daysOfCode</h1> <h1>#Alura</h> <h1>#FrontEnd</h1>
 Desafio proposto pela Alura - projeto utilizando html e css #7DaysOfCode
 
 Muito legal o desafio da Alura com a guia e instrutora Giovanna Moeller tive a oportunidade de praticar aquilo que aprendi e estou aprendendo ao longo da jornada de Dev. <br>Tenho uma certa dificuldade em produzir códigos CSS em poucas linhas, menos poluído</br>, talvez e provalvemente seja por ser novo na área mas com o tempo vou pegando o jeito.
