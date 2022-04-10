@@ -40,4 +40,4 @@ Acabei ontem mas comentar hoje, bom eu configurei para linhar ao centro no <b>BO
 Trabalhando a responsividade...
 <h2>Dias que eu mesmo me desafiei: </h2>
 <h2>Responsivo mobile</h2>
-A dificuldade e a surpresa por aprender foi que objetos soltos em um site grande sem conteiner faz uma bagunça na hora de deixar responsivo, porque é facil e simples é só  usar o 1fr... display grid ou display flex. Mas tem uma coisa se usar muitos conteiner e sub conteines ficara uma bagunça dando no HTML e CSS aí deverá dosar. vou deixar meus erros e fazer responsivo outro dia para ipad e laptop!
+A dificuldade e a surpresa por aprender foi que objetos soltos em um site grande sem conteiner faz uma bagunça na hora de deixar responsivo, para resolver é facil e simples é só  usar o 1fr... display grid ou display flex. Mas tem uma coisa se usar muitos conteiner e sub conteines ficara uma bagunça tanto no HTML e no CSS aí deverá dosar. vou deixar meus erros e fazer responsivo outro dia para ipad e laptop!
