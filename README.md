@@ -38,3 +38,6 @@ A <br>dificuldade que tive aqui foi a foto</br> alias tenho ainda não sei se fa
 Acabei ontem mas comentar hoje, bom eu configurei para linhar ao centro no <b>BODY</b> pensando que talvez ficassem todas as tags com essa configuração mas pelo que percebi quando cria uma div container algumas das vezes não fica configurada aí está o motivo de alguns novatos criarem muitas configurações e tags, podemos ate aliviar muita linhas de codigos colocando configurações nas tags principais assim mesclando novas configuração nas novas sub-tags mas oque não entendi é o conflitos que fica entre sub e sub-criada.
 
 Trabalhando a responsividade...
+<h2>Dias que eu mesmo me desafiei: </h2>
+<h2>Responsivo mobile</h2>
+A dificuldade e a surpresa por aprender foi que objetos soltos em um site grande sem conteiner faz uma bagunça na hora de deixar responsivo, porque é facil e simples é só  usar o 1fr... display grid ou display flex. Mas tem uma coisa se usar muitos conteiner e sub conteines ficara uma bagunça dando no HTML e CSS aí deverá dosar. vou deixar meus erros e fazer responsivo outro dia para ipad e laptop!
