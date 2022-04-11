@@ -16,13 +16,14 @@
     display: flex;
     align-items: center;
     width: 320px;
-    height: 220px;
+    height: 300px;
     gap: 1px;
     background-color: #ffffed;
+    border: 1px solid red;
   }
 
   .logotipo {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   .navbar {
@@ -31,16 +32,12 @@
     margin: 20px;
   }
 
-  /*Menu explicado no site https://developer.mozilla.org/en-US/docs/Web/CSS/gap */
-  .menu {
-    height: 150px;
-    width: 80px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .menu ul {
-    flex: 1 auto;
+  .menu{
+    height: 200px;
+    display: block;
+    row-gap: 4px;
+    align-content: space-between;
+    border: 1px solid red;
   }
 
   .button {
